@@ -8,10 +8,10 @@ def main(args: Array[String]): Unit = {
  var k = 4.3;
 
  //a)
- b -= 1;          // In Scala there is no increment and decrement operators. That is why i use that.
- d -= 1 ;
+ b -= 1;          // In Scala there is no increment and decrement operators. That is why i use that
  print(" - -b * a + c *d - - = ");
  println(((b)*a)+(c*(d))) ;
+ d -= 1 ;
  
 
  //b)
@@ -25,15 +25,15 @@ def main(args: Array[String]): Unit = {
  // println((-2 * (g - k)) +c);
 
  //d)
- c += 1;
  print("c=c++ = ");
  println(c);
+  c += 1;
 
  //e)
  c += 1;
- a += 1;
  print("c=++c*a++ = ");
  println(a*c);
+ a += 1;
  
  }
 }
